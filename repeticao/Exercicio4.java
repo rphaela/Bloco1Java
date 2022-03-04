@@ -6,7 +6,7 @@ public class Exercicio4 {
 
 	public static void main(String[] args) {
 	
-		int total=0, idade, gen, pers, cal=0, mul_ner=0, hom_agr=0, out_cal=0, ner_maior=0, cal_menor=0;
+		int total=0, idade, gen, pers, cal=0, mulNer=0, homAgr=0, outCal=0, nerMaior=0, calMenor=0;
 		Scanner leia = new Scanner (System.in);
 		
 		while(total<150) {
@@ -29,27 +29,27 @@ public class Exercicio4 {
 				cal++; }
 			
 			if(gen==1 && pers==2) {
-				mul_ner++;	}
+				mulNer++;	}
 			
 			if(gen==2 && pers==3) {
-				hom_agr++;	}
+				homAgr++;	}
 			
 			if(gen==3 && pers==1) {
-				out_cal++;	}
+				outCal++;	}
 			
 			if(idade>40 && gen==2) {
-				ner_maior++; 	}
+				nerMaior++; 	}
 			
 			if(idade<18 && gen==1) {
-				cal_menor++;	}
+				calMenor++;	}
 			
 		}
 			System.out.println("\nO número de pessoas calmas é: "+cal);
-			System.out.println("O número de mulheres nervosas é: "+mul_ner);
-			System.out.println("O número de homens agressivos é: "+hom_agr);
-			System.out.println("O número de outros calmos é: "+out_cal);
-			System.out.println("O número de pessoas nervosas maiores de 40 anos é: "+ner_maior);
-			System.out.println("O número de pessoas calmas menores de 18 anos é: "+cal_menor);
+			System.out.println("O número de mulheres nervosas é: "+mulNer);
+			System.out.println("O número de homens agressivos é: "+homAgr);
+			System.out.println("O número de outros calmos é: "+outCal);
+			System.out.println("O número de pessoas nervosas maiores de 40 anos é: "+nerMaior);
+			System.out.println("O número de pessoas calmas menores de 18 anos é: "+calMenor);
 			System.out.println("\nFIM DO PROGRAMA");
 			
 			leia.close();
