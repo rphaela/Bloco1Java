@@ -7,7 +7,7 @@ public class Ex1 {
 
 	public static void main(String[] args) {
 		
-		String prod1 = "Refrigerante";
+		String prod1 = "Refrigerantes";
 		String prod2 = "Cervejas";
 		String prod3 = "Sucos";
 
